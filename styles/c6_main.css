@@ -52,7 +52,7 @@ section {
 }
 /* the styles for the main content */
 section {
-	clear: left;
+	clear: both;
 }
 
 section {
@@ -103,7 +103,7 @@ article h3 {
 	padding-bottom: .25em;
 }
 article img {
-	float: right;
+	float: left;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
