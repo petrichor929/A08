@@ -45,7 +45,7 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
-section {
+main {
 	width: 525px;
 	float: right;
 	padding: 0 20px 20px 20px; /* this is for right, left, and bottom */
@@ -103,7 +103,7 @@ article h3 {
 	padding-bottom: .25em;
 }
 article img {
-	float: left;
+	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
@@ -113,9 +113,6 @@ aside {
 	width: 215px;
 	float: right;
 	padding: 0 0 20px 20px;
-	position:absolute; 
-	top:20px; 
-	left:80px; 
 }
 aside h2 {
 	color: #800000;
@@ -128,6 +125,7 @@ aside h3 {
 }
 aside img {
 	padding-bottom: 1em;
+	
 }
 
 /* the styles for the footer */
