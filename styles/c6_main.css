@@ -14,10 +14,22 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
-section {
+section{
 	width: 525px;
 	float: right;
 	padding: 0 20px 20px 20px;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -51,18 +63,6 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
-main {
-	clear: left;
-}
-main {
-	padding: 0 30px;
-}
-main h1 {
-	font-size: 150%;
-	padding: .3em 0;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
-}
 main h2 {
 	color: #800000;
 	font-size: 130%;
@@ -102,16 +102,18 @@ article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-article img {
-	float: right;
-}
+
 /* the styles for the aside */
-aside {
-	width: 515px;
+aside{
+	width: 215px;
 	float: right;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	
+	padding: 0 0 20px 20px;
+}
+aside h1{
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;
+	color:#800000;
 }
 aside h3 {
 	font-size: 105%;
@@ -125,11 +127,9 @@ aside img {
 footer {
 	background-color: #931420;
 	clear: both;
-	
 }
 footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
 }
-
