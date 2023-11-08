@@ -107,6 +107,8 @@ article h3 {
 aside {
 	width: 525px;
 	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
 	
 }
 aside h3 {
