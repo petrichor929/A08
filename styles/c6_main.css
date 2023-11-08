@@ -111,8 +111,8 @@ article img {
 /* the styles for the aside */
 aside {
 	width: 215px;
-	float: left;
-	padding: 0 20px 20px;
+	float: right;
+	padding: 0 0 20px 20px;
 }
 aside h2 {
 	color: #800000;
