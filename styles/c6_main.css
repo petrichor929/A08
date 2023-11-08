@@ -114,10 +114,8 @@ aside {
 	float: right;
 	padding: 0 0 20px 20px;
 	position:relative; 
-	top:0px; 
-	left:0px; 
-	margin-left:0px; 
-	margin-right:0px;
+	top:2px; 
+	left:80px; 
 }
 aside h2 {
 	color: #800000;
